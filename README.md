@@ -2,6 +2,8 @@
 Collection of classes and methods to support service and process management
 
 ## Class: ProcessManagement ##
+Static class providing exposing static methods for interacting with system processes
+
 ### Method: RunCommand ###
 Run a system command or executable.  Accepts the FQPN of the command and an optional working directory.  Captures all output from the command (both Standard and Error) and returns it as a formatted string.
 
